@@ -1,63 +1,71 @@
-# Getting Started with Create React App
+# URL Shortener Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, minimal, and professional web app for shortening URLs, tracking analytics, and managing links—all with a beautiful UI and seamless UX.
 
-## Available Scripts
+[**Live App → https://url-shortener-frontend-liard-one.vercel.app/**](https://url-shortener-frontend-liard-one.vercel.app/)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+This project is a fully functional URL shortener frontend, built with React and designed to provide a seamless user experience. It features instant URL shortening, click analytics, and a secure admin dashboard.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **Instant URL shortening** with a single click
+* **Copy-to-clipboard** for quick sharing
+* **Click analytics**: See how many times each link is used
+* **Admin dashboard**: Secure login, view/manage all URLs
+* **Responsive, minimal, and elegant design**
+* **Professional animations & accessibility**
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* React (with Hooks)
+* Axios
+* React Router DOM
+* Custom CSS (minimal, modern, and responsive)
+* Backend: [Node.js/Express/MongoDB API](../url_shortner_be)
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm install
+npm start
+```
+The app runs locally at [http://localhost:3000](http://localhost:3000)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## API Connection
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* The frontend is pre-configured to use the deployed backend.
+* See `/src/UrlShortenerForm.js` for the API base URL.
 
-### `npm run eject`
+## Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+url-shortner-fe/
+├── src/
+│   ├── App.js, App.css
+│   ├── UrlShortenerForm.js, UrlShortenerForm.css
+│   ├── AdminPage.js, AdminPage.css
+│   ├── LoginPage.js, LoginPage.css
+│   └── components/
+│       ├── Header.js, Header.css
+│       ├── Footer.js, Footer.css
+│       └── ...
+├── public/
+├── package.json
+└── README.md
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Security
+## 🛡️ Security
+- No sensitive keys in the frontend repo.
+- All admin actions require authentication.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🌐 Deployment
+- Deployed on Vercel: [https://url-shortener-frontend-liard-one.vercel.app/](https://url-shortener-frontend-liard-one.vercel.app/)
+- Backend: [See backend repo](../url_shortner_be)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
+---
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
