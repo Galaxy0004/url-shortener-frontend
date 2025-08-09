@@ -63,16 +63,6 @@ url-shortner-fe/
 
 ## 🌐 Deployment
 - Deployed on Vercel: [https://url-shortener-frontend-liard-one.vercel.app/](https://url-shortener-frontend-liard-one.vercel.app/)
-- Backend: [See backend repo](../url_shortner_be)
+- Backend: [See backend repo](https://github.com/Galaxy0004/url-shortner-backend)
 
 ---
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
